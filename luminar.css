@@ -58,3 +58,33 @@
     padding: .3rem 1.5rem;
     text-transform: uppercase;
 }
+/* About */
+
+.about-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #fbf9f9;
+}
+.about-section h1{
+    color:  #5e068a;
+    font-size: 2rem;
+}
+.about-section h4{
+    font-size: 1.4rem;
+    color:  #bf3eff;
+}
+.about-section p{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+}
+.about-section .about-button{
+    padding: 1rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 7rem;
+    background:  #5e068a;
+    color: white;
+    font-weight: 700;
+}
