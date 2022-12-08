@@ -88,3 +88,87 @@
     color: white;
     font-weight: 700;
 }
+.cources{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+.cources .cource-head{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #5e068a;
+}
+.cource-head span{
+    color: #bf3eff;
+}
+.cource-row{
+    width: 75%;
+}
+.cource-row:hover{
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+}
+.cource-row img{
+    width: 100%;
+    height: 19rem;
+}
+.cource-row h1{
+    font-size: 1.3rem;
+    color: #5e068a;
+}
+.cource-row h6{
+    font-size: .9rem;
+    padding-top: .5rem;
+    line-height: 1.5rem;
+    color: rgb(125, 115, 115);
+}
+.cource-row p{
+    font-size: .9rem;
+    font-weight: 600;
+}
+.cource-row a{
+    color: #bf3eff;
+}
+
+.single-cource{
+    width: 75%;
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+.card:hover{
+    box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.75);
+}
+.card-title{
+    color: #5e068a;
+}
+.card p{
+    font-size: .9rem;
+    color: black;
+    font-weight: 600;
+}
+.card .card-button{
+    padding: .5rem 1rem;
+    border: none;
+    background: #5e068a;
+    color: white;
+    font-weight: 600;
+}
+.view-cource-btn{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.view-cource-btn button{
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: 2px solid #5e068a;
+    color: #5e068a;
+}
+.view-cource-btn button:hover{
+    background: #5e068a;
+    color: white;
+    transition: all .35s;
+}
